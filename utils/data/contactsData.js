@@ -1,8 +1,8 @@
 export const contactsData = {
-    email: 'abusaid7388@gmail.com',
-    phone: '+8801608797655',
-    address: 'Middle Badda, Dhaka, Bangladesh - 1212 ',
-    github: 'https://github.com/said7388',
-    linkedIn: 'https://www.linkedin.com/in/abu-said-bd/',
-    devUsername: "said7388"
+    email: 'anu.mj0608@gmail.com',
+    phone: '+919778363559',
+    address: 'Thiruvananthapuram,Kerala,India 695571 ',
+    github: 'https://github.com/Anusree-mj',
+    linkedIn: 'https://www.linkedin.com/in/anusree-m-j-003756286/',
+    devUsername: ""
 }
