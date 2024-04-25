@@ -6,7 +6,7 @@ import travel from '/public/image/travel.jpg';
 export const projectsData = [
     {
         id: 1,
-        name: 'TrioCart-an ecommerce website',
+        name: 'TrioCart',
         description: "I have designed and developed TrioCart, an eCommerce platform specializes in dress shopping, catering to ladies, men, and kids. It is developed using Node.js, Express.js, MongoDB, and other technologies. It provides a comprehensive set of features for both customers and administrators.The platform includes essential eCommerce features such as product listings, detailed product pages, shopping cart functionality, secure checkout process with payment integration using Razorpay, and order management. Additionally, TrioCart provides advanced functionalities like image uploading and cropping using Cropper.js, real-time data visualization with Graph.js, and scheduling capabilities with Schedule.js.",
         tools: ['Express', 'MongoDB', 'Multer', 'AWS','Node Mailer', 'Cropper.js', 'Razorpay', 'Graph.js','Schedule.js', 'PM2', 'Nginx'],
         role: 'FullStack Developer',
