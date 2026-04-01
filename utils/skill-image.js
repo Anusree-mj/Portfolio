@@ -44,6 +44,7 @@ import microsoftoffice from '/public/svg/skills/microsoftoffice.svg';
 import mongoDB from '/public/svg/skills/mongoDB.svg';
 import mysql from '/public/svg/skills/mysql.svg';
 import nextJS from '/public/svg/skills/nextJS.svg';
+import nodeJS from '/public/svg/skills/nodejsLight.svg'
 import nginx from '/public/svg/skills/nginx.svg';
 import numpy from '/public/svg/skills/numpy.svg';
 import nuxtJS from '/public/svg/skills/nuxtJS.svg';
@@ -66,6 +67,7 @@ import tailwind from '/public/svg/skills/tailwind.svg';
 import tensorflow from '/public/svg/skills/tensorflow.svg';
 import typescript from '/public/svg/skills/typescript.svg';
 import unity from '/public/svg/skills/unity.svg';
+import ubuntu from '/public/svg/skills/ubuntu.webp';
 import vitejs from '/public/svg/skills/vitejs.svg';
 import vue from '/public/svg/skills/vue.svg';
 import vuetifyjs from '/public/svg/skills/vuetifyjs.svg';
@@ -97,7 +99,9 @@ export const skillsImage = (skill) => {
       return angular;
     case 'javascript':
       return javascript;
-    case 'next js':
+    case 'nodejs':
+      return  nodeJS;
+    case 'nextjs':
       return nextJS;
     case 'nuxt js':
       return nuxtJS;
@@ -221,6 +225,8 @@ export const skillsImage = (skill) => {
       return sketch;
     case 'unity':
       return unity;
+    case 'ubuntu':
+      return ubuntu;
     case 'wolframalpha':
       return wolframalpha;
     case 'canva':

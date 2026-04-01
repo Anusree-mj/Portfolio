@@ -3,6 +3,6 @@ export const contactsData = {
     phone: '+919778363559',
     address: 'Thiruvananthapuram,Kerala,India 695571 ',
     github: 'https://github.com/Anusree-mj',
-    linkedIn: 'https://www.linkedin.com/in/anusree-m-j-003756286/',
+    linkedIn: 'https://www.linkedin.com/in/anusree-mj-003756286/',
     devUsername: ""
 }

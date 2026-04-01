@@ -24,6 +24,7 @@ function ContactForm() {
   };
 
   const handleSendMail = async (e) => {
+    console.log("enterinngg")
     e.preventDefault();
     if (!input.email || !input.message || !input.name) {
       setError({ ...error, required: true });
@@ -37,7 +38,7 @@ function ContactForm() {
     const serviceID = process.env.NEXT_PUBLIC_EMAILJS_SERVICE_ID;
     const templateID = process.env.NEXT_PUBLIC_EMAILJS_TEMPLATE_ID;
     const options = { publicKey: process.env.NEXT_PUBLIC_EMAILJS_PUBLIC_KEY };
-
+        console.log("serviceId:",serviceID,"templlll:",templateID,"optionssss:",options)
     try {
       const res = await emailjs.send(serviceID, templateID, input, options);
 
@@ -120,7 +121,7 @@ function ContactForm() {
               role="button"
               onClick={handleSendMail}
             >
-              <span>Send Message</span>
+              Send Message
               <TbMailForward className="mt-1" size={18} />
             </button>
           </div>
