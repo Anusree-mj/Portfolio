@@ -2,7 +2,7 @@ export const educations = [
   {
     id: 1,
     title: "Master of Computer Applications",
-    duration: "2024 - Ongoing",
+    duration: "2024 - 2026",
     institution: "Amrita University",
   },
   {
